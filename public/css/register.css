@@ -42,7 +42,7 @@
   border: 1px solid rgb(111, 179, 34);
 }
 
-.conference-hightlight button {
+/* .conference-hightlight button {
   background-color: black;
   color: white;
   width: 200px;
@@ -50,31 +50,20 @@
   border: 1px solid rgb(111, 179, 34);
   border-radius: 5px;
 }
-
-.container {
-  border: 1px solid teal;
-  background-color: rgb(111, 179, 34);
-  color: white;
-}
+ */
 .reg-form {
   text-align: center;
+  color: rgb(4, 37, 4);
   margin: 5px 0px 20px;
 }
-.form-group {
-  border: 1px solid #aaa;
-  padding: 20px;
-  color: black;
-  font-weight: bolder;
-  font-size: 1.3rem;
-  margin: 30px auto;
-  background-color: whitesmoke;
-  width: 70%;
-  border-radius: 5px;
+
+form {
+  background-color: #aaa;
+  padding: 3px;
 }
 .form-group input,
 .form-group textarea {
-  background-color: lightgreen;
-  padding: 5px;
+  background-color: #aaa;
   width: 70%;
   margin: 5px auto;
   text-align: center;
@@ -82,17 +71,46 @@
   padding: 30px;
   display: block;
   right: 0px;
-  border: 1px solid lightgreen;
+  color: black;
+  border: 1px solid #aaa;
   border-radius: 5px;
 }
 
 .form-group button {
-  width: 100%;
-  padding: 20px;
+  width: 30%;
   color: white;
-  border: 1px solid rgb(111, 179, 34);
+  border: 1px solid darkgreen;
   border-radius: 5px;
   text-transform: uppercase;
-  background-color: rgb(111, 179, 34);
+  background-color: darkgreen;
+  margin: 0px auto;
+}
+
+.form-group {
+  border: 1px solid #aaa;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
   font-size: 1.3rem;
+  margin: 30px auto;
+  background-color: whitesmoke;
+  width: 70%;
+  border-radius: 5px;
+}
+
+#form-button {
+  background-color: darkgreen;
+  text-align: center;
+  margin: 0px auto 20px;
+  width: 30%;
+  padding: 3px;
+  /* text-transform:uppercase; */
+  color: white;
+}
+
+.btn-container {
+  color: white;
+  padding: 20px auto;
+  text-align: center !important;
 }

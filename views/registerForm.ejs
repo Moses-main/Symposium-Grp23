@@ -18,12 +18,12 @@
       <h2 class="reg-form">Registration Form</h2>
       <form action="/create" method="POST">
         <div class="form-group">
-          <label for="name">Name:</label>
+          <label for="fullname">Full Name:</label>
           <input
             type="text"
             class="form-control"
-            id="name"
-            name="name"
+            id="fullname"
+            name="fullname"
             placeholder="John Doe"
             required
           />
@@ -38,7 +38,7 @@
             placeholder="john.doe@gmail.com"
           />
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="institution">Institution:</label>
           <input
             type="text"
@@ -59,7 +59,7 @@
             placeholder="NACOS Member"
             required
           />
-        </div>
+        </div> -->
         <div class="form-group">
           <label for="contact">Phone Number:</label>
           <input
@@ -71,7 +71,7 @@
             required
           />
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="registrationType">Registration Type:</label>
           <select
             class="form-control"
@@ -82,12 +82,11 @@
             <option selected disabled>Select Registration Type</option>
             <option value="Full">Full</option>
             <option value="Partial">Partial</option>
-            <!-- Add more options as needed -->
           </select>
         </div>
-
+ -->
         <div class="form-group">
-          <label for="comments">Additional Comment or Questions:</label>
+          <label for="comments">Comment </label>
 
           <textarea
             class="form-control"
@@ -99,26 +98,15 @@
           ></textarea>
         </div>
         <!-- Repeat for other form fields -->
-        <div class="form-group">
-          <button type="submit" class="btn btn-primary">Submit</button>
+        <!-- <div class="form-group btn"> -->
+        <div class="btn-container">
+          <button id="form-button" type="submit">Submit</button>
         </div>
       </form>
     </div>
 
     <br /><br /><br /><br /><br /><br />
     <!-- <div class="container"> -->
-    <div class="conference-hightlight">
-      <div class="call-to-action">
-        <h1>Attend the "Future of Food" Symposium!</h1>
-        <h1>Secure your spot by registering today.</h1>
-        <small
-          >Build opportunities for future opportunities for products,
-          startups</small
-        >
-        <button>-> Register Now!</button>
-      </div>
-    </div>
-    <br /><br /><br /><br /><br /><br />
     <!-- For the navigation button -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
