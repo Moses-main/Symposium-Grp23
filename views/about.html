@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | SICT Symposium</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- <link rel="stylesheet" href="/css/about.css" /> -->
+    <link rel="stylesheet" href="../public/css/about.css" />
+    <!-- for the navigation -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  <!--  Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <%- include('partials/nav') %>
+
+    <div class="sict">
+      <h1>SICT SYMPOSIUM</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores odio
+        sed et temporibus doloremque, velit deserunt, exercitationem aperiam
+        nisi, eligendi consequuntur in cumque debitis nam reiciendis illum
+        consectetur sequi vel.</p>
+      </p>
+      <div class="img-container">
+        <img src="../public/images/web_dev.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="about-host-container">
+      <h2>About the host</h2>
+      <p>
+        Welcome to the School of Information and Communication Technology (SICT)
+        Symposium, an annual event dedicated to exploring the latest
+        advancements and innovations in the field of Information and
+        Communication Technology (ICT)
+      </p>
+      <div class="flex-container">
+        <!-- inline-block element  -->
+        <!-- width of 30% for each -->
+        <!-- add margin for the up and sides -->
+        <div class="img-container"></div>
+        <div class="img-container"></div>
+        <div class="img-container"></div>
+      </div>
+    </div>
+
+    <div class="our-mission-container">
+      <h2 >OUR MISSION</h2>
+      <p>
+        At SICT, our mission is to foster interdisciplinary collaboration,
+        knowledge sharing, and technological innovation in the ever-evolving
+        landscape of ICT. Through our symposium, we aim to bring together
+        leading researchers, industry professionals, and students to exchange
+        ideas, engage in meaningful discussions, and shape the future of ICT
+      </p>
+      <div class="flex-container">
+        <!-- inline-block element  -->
+        <!-- width of 30% for each -->
+        <!-- add margin for the up and sides -->
+
+        <div class="img-container"></div>
+        <div class="img-container"></div>
+        <div class="img-container"></div>
+      </div>
+    </div>
+
+    <!-- Attend the future of food -->
+    <div class="call-to-action-container">
+      <h2>Attend the "Future of Food Symposium!"</h2>
+      <h2>Secure your spot by registering</h2>
+      <!-- DIsplay the below inline-block -->
+
+      <section>
+        <ul>
+          <!-- Let the list style type be a bullet -->
+          <li>
+            Access to all Symposium sessions including keynotes, speeches, panel
+            dicussion and workshops
+          </li>
+
+          <li>Certificate of attendance upon completion of the Symposium</li>
+        </ul>
+      </section>
+
+      <section>
+        <ul>
+          <!-- List style type should be a bullet -->
+          <li>
+            Networking Opportunity with industry professionals, researchers and
+            fellow attendees
+          </li>
+          <li>Exclusive access to Symposium materials and resources</li>
+        </ul>
+      </section>
+      <!-- Let this div span across the page, dont break -->
+      <div class="btn-container">
+        <h2>Building opportunities for future Products and startup</h2>
+        <button type="submit"><a class="white" href="/reg">REGISTER NOW</a></button>
+      </div>
+    </div>
+
+    <!-- Enquire section -->
+    <div class="enquire-container">
+      <!-- Align this to the left -->
+      <div class="big-left">
+        <h4>For enquires and registration</h4>
+        
+        <br>
+        <div>
+          <img class="converner-img" src="../public/images/chiboy.jpg" alt="converner image" />
+          <div class="converner-data">
+            <br>
+            <h5>Kingsley Okpala</h5>
+            <small>Committee Head</small>
+          </div>
+          <!-- add icons here -->
+          <p><i class="far fa-envelope dark-green"></i> kingsley@gmail.com</p>
+          <p><i class="fas fa-phone dark-green"></i> 081858754667</p>
+      
+        </div>
+      </div>
+
+      <!-- Align this to the right -->
+      <div class="small-right">
+        <div>
+          <br>
+          <img class="converner-img" src="../public/images/chiboy.jpg"  alt="" />
+          <h5>Special Guest</h5>
+          <p>Professor Nnennaya Oti</p>
+          <p>Vice Chancellor, FUTO</p>
+        </div>
+
+        <div>
+          <img  class="converner-img" src="../public/images/chiboy.jpg" alt="" />
+          <h5>Chief Host</h5>
+          <p>Professor U.F, Eze</p>
+          <p>Dean of Student Affaris, FUTO</p>
+        </div>
+      </div>
+    </div>
+<br>
+    <%- include('partials/footer') %>
+
+    <!-- For the navigation button -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

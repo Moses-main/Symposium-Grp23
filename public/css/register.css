@@ -105,7 +105,6 @@ form {
   margin: 0px auto 20px;
   width: 30%;
   padding: 3px;
-  /* text-transform:uppercase; */
   color: white;
 }
 
@@ -113,4 +112,54 @@ form {
   color: white;
   padding: 20px auto;
   text-align: center !important;
+}
+
+.enquire-container {
+  border: 2px solid green;
+  margin: 30px 5px;
+  padding: 5px;
+}
+
+.enquirer-card div {
+  display: inline-block !important;
+  width: 40%;
+}
+.enquire-container div {
+  display: block;
+  /* border: 1px solid red; */
+  margin: 5px;
+}
+
+.img-container {
+  width: 20% !important;
+  height: auto;
+  /* border: 1px soild darkgreen; */
+}
+.enquire-img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px soild darkgreen !important;
+  height: auto;
+}
+
+.details-container {
+  font-size: 0.7rem !important;
+  margin: 0px 0px 0px 40px;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.map-container {
+  margin: 0px auto;
+  width: 630px;
+  height: 340px;
+  border: 2px solid darkgreen;
+  background-color: #aaa;
+}
+
+.width-70 {
+  width: 70%;
+  margin: 0px auto;
 }
