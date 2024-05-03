@@ -6,18 +6,10 @@ exports.getRegistrationPage = (req, res) => {
 
 exports.createIndividual = async (req, res) => {
   try {
-    const {
-      name,
-      email,
-      contact,
-      institution,
-      position,
-      registrationType,
-      comments,
-    } = req.body;
+    const { name, email, contact } = req.body;
 
     // Validate required fields
-    if (!name || !contact || !institution || !position || !registrationType) {
+    if (!name || !contact || !email) {
       return res
         .status(400)
         .json({ message: "All required fields must be provided" });
@@ -33,10 +25,6 @@ exports.createIndividual = async (req, res) => {
       name,
       email,
       contact,
-      institution,
-      position,
-      registrationType,
-      comments,
     });
 
     // Save the registration to the database

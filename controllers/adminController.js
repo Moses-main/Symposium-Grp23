@@ -7,12 +7,3 @@ exports.getAdminPage = (req, res) => {
     })
     .catch((err) => console.error("Error fetching registrations:", err));
 };
-
-// retrieve data from the database
-// module.exports = async (req, res) => {
-//   const blogposts = await BlogPost.findById(req.params.id);
-//   console.log(blogposts);
-//   res.render("post", {
-//     blogposts,
-//   });
-// };

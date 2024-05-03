@@ -1,3 +1,181 @@
-*{
-    f
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 25px;
+}
+
+.main-container {
+  text-align: center;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.main-container-sub,
+.img-container {
+  min-width: 300px;
+  width: 40%;
+  margin: 10px -3px;
+  display: inline-block;
+  border: 1px solid green;
+}
+
+.img-container {
+  height: 220px;
+  padding: 0px 0px 40px;
+  background-color: #aaa;
+}
+
+.feature-container h2 {
+  text-align: center;
+}
+
+.feature-container {
+  /* border: 1px solid goldenrod; */
+  width: 95%;
+  text-align: center;
+  margin: 50px auto !important;
+}
+
+.speaker-card h2 {
+  font-size: 1rem;
+  margin: 30px 0px 5px;
+  font-weight: bold;
+}
+
+.speaker-card {
+  border: 2px solid darkgreen;
+  width: 28%;
+  display: inline-block;
+  text-align: left;
+  margin: 10px !important;
+  max-width: 300px;
+  border-radius: 5px;
+  line-height: 0.2rem !important;
+  height: auto;
+  padding: 0px 0px 0px 10px;
+}
+
+.speaker-img {
+  padding: 5px;
+  height: 80px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 80px;
+}
+
+/* The style for the attend the event call to action */
+
+.call-to-action-container {
+  background-color: darkgreen;
+  color: white;
+  width: 70%;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 10px 10px 60px;
+  text-align: left;
+}
+
+.call-to-action-container section {
+  display: inline-block;
+  width: 40%;
+  border: 1px solid white;
+  min-width: 230px;
+  margin: 20px;
+}
+
+.call-to-action-container section li {
+  margin: 10px 0px;
+  font-size: 0.8rem;
+}
+
+.btn-container {
+  display: inline;
+}
+
+.btn-container button {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: green;
+  border-radius: 5px;
+  position: absolute;
+  /* right: 30px; */
+  margin: 10px 5px 10px 5px;
+}
+
+a.white {
+  color: white;
+  text-decoration: none;
+}
+
+a.white:hover {
+  background-color: white;
+  color: green;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.enquire-container {
+  border: 1px solid #aaa;
+  box-shadow: 2px 3px 2px #aaa;
+  margin: 40px auto;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+}
+
+.enquire-container .big-left,
+.enquire-container .small-right {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+.converner-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  background-color: #aaa;
+}
+
+.big-left {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+/* Define dark green color */
+.dark-green {
+  color: darkgreen;
+}
+.small-right {
+  border-radius: 5px;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  display: inline-block;
+  border: 3px solid darkgreen !important;
+}
+
+.small-right div {
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+
+.small-right div h5 {
+  color: darkgreen;
+}
+
+.width-size {
+  width: 60%;
+  margin: 50px auto 0px;
 }
