@@ -19,6 +19,10 @@
   /* border: 1px solid red; */
   font-size: small;
 }
+.host-img {
+  width: 80%;
+  height: 250px;
+}
 
 .about-host-container,
 .our-mission-container {

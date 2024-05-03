@@ -154,6 +154,11 @@ a.white:hover {
   line-height: 0.9rem;
 }
 
+.flyer-img {
+  width: 100%;
+  height: auto;
+}
+
 /* Define dark green color */
 .dark-green {
   color: darkgreen;

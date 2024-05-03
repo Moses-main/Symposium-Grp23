@@ -145,7 +145,7 @@ form {
 .details-container {
   font-size: 0.7rem !important;
   margin: 0px 0px 0px 40px;
-  border: 1px solid red;
+  border: 1px solid #aaa;
   border-radius: 5px;
   text-align: left;
   padding: 5px 10px;
