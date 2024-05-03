@@ -8,8 +8,8 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/css/agenda.css" />
-    <!-- <link rel="stylesheet" href="../public/css/agenda.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/agenda.css" /> -->
+    <link rel="stylesheet" href="../public/css/agenda.css" />
     <!-- for the navigation -->
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -19,7 +19,7 @@
   <body>
     <%- include('partials/nav') %>
 
-    <div>
+    <div class="conference-schedule-container">
       <h1>Conference Schedule</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit
@@ -27,19 +27,19 @@
         delectus porro?
       </p>
 
-      <div>
-        <h4>Symposium Agenda</h4>
+      <div class="agenda-container">
+        <h2>Symposium Agenda</h2>
         <!-- let this be inline element -->
         <div>
-          <ul>
+          <ul class="list-line">
             <!-- ensure to use font awesome icons here and then make the element inline-->
             <li><p>May 22nd, 2024</p></li>
             <li><p>9:00AM</p></li>
             <li><p>Hall of Excellence</p></li>
           </ul>
         </div>
-        <div>
-          <h3>Midday Session</h3>
+        <div class="mid-day-container">
+          <h5>Midday Session</h5>
           <!-- block elements and list style type should be a tick -->
           <ul>
             <li>Workshop for Final Year and Post-graduate Students</li>
@@ -53,16 +53,21 @@
       </div>
     </div>
 
-    <div>
+    <div class="speakers-container">
+      <h4>Our Speakers</h4>
       <!-- span the divs here to be block -->
       <!-- first speaker -->
-      <div>
-        <div>
+      <div class="speaker-card">
+        <div class="speaker-img-container">
           <!-- img container -->
-          <img src="" alt="" />
+          <img
+            class="speaker-img"
+            src="../public/images/chiboy.jpg"
+            alt="speakers image"
+          />
         </div>
 
-        <div>
+        <div class="speaker-data-container">
           <h2>Dr. Emily Jason</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat a
@@ -73,14 +78,18 @@
         </div>
       </div>
 
-      <!-- second speaker -->
-      <div>
-        <div>
+      <!-- Second speaker -->
+      <div class="speaker-card">
+        <div class="speaker-img-container">
           <!-- img container -->
-          <img src="" alt="" />
+          <img
+            class="speaker-img"
+            src="../public/images/mary.jpg"
+            alt="speakers image"
+          />
         </div>
 
-        <div>
+        <div class="speaker-data-container">
           <h2>Dr. Emily Jason</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat a
@@ -91,14 +100,18 @@
         </div>
       </div>
 
-      <!-- 3 speaker  -->
-      <div>
-        <div>
+      <!-- Third speaker -->
+      <div class="speaker-card">
+        <div class="speaker-img-container">
           <!-- img container -->
-          <img src="" alt="" />
+          <img
+            class="speaker-img"
+            src="../public/images/divine.jpg"
+            alt="speakers image"
+          />
         </div>
 
-        <div>
+        <div class="speaker-data-container">
           <h2>Dr. Emily Jason</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat a
@@ -111,8 +124,7 @@
     </div>
 
     <!-- Attend the future of food -->
-
-    <div>
+    <div class="call-to-action-container">
       <h2>Attend the "Future of Food Symposium!"</h2>
       <h2>Secure your spot by registering</h2>
       <!-- DIsplay the below inline-block -->
@@ -140,47 +152,57 @@
         </ul>
       </section>
       <!-- Let this div span across the page, dont break -->
-      <div>
+      <div class="btn-container">
         <h2>Building opportunities for future Products and startup</h2>
-        <button type="submit"><a href="/reg">REGISTER NOW</a></button>
+        <button type="submit">
+          <a class="white" href="/reg">REGISTER NOW</a>
+        </button>
       </div>
     </div>
 
     <!-- Enquire section -->
-    <div>
+    <div class="enquire-container">
       <!-- Align this to the left -->
-      <div>
-        <h2>For enquires and registration</h2>
+      <div class="big-left">
+        <h4>For enquires and registration</h4>
+
+        <br />
         <div>
-          <img src="" alt="converner image" />
-          <div>
-            <h4>Kingsley Okpala</h4>
+          <img
+            class="converner-img"
+            src="../public/images/chiboy.jpg"
+            alt="converner image"
+          />
+          <div class="converner-data">
+            <br />
+            <h5>Kingsley Okpala</h5>
             <small>Committee Head</small>
           </div>
           <!-- add icons here -->
-          <p>kingsley@gmail.com</p>
-          <p>081858754667</p>
+          <p><i class="far fa-envelope dark-green"></i> kingsley@gmail.com</p>
+          <p><i class="fas fa-phone dark-green"></i> 081858754667</p>
         </div>
       </div>
 
       <!-- Align this to the right -->
-      <div>
+      <div class="small-right">
         <div>
-          <img src="" alt="" />
-          <h3>Special Guest</h3>
-          <p>Professor Name</p>
+          <br />
+          <img class="converner-img" src="../public/images/chiboy.jpg" alt="" />
+          <h5>Special Guest</h5>
+          <p>Professor Nnennaya Oti</p>
           <p>Vice Chancellor, FUTO</p>
         </div>
 
         <div>
-          <img src="" alt="" />
-          <h3>Chief Host</h3>
+          <img class="converner-img" src="../public/images/chiboy.jpg" alt="" />
+          <h5>Chief Host</h5>
           <p>Professor U.F, Eze</p>
           <p>Dean of Student Affaris, FUTO</p>
         </div>
       </div>
     </div>
-
+    <br />
     <!-- Make enquires for the program here -->
 
     <%- include('partials/footer') %>
